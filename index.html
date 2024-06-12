@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho - Título da Tarefa -->
+    <header>
+        <h1>Tarefa 11 - Comandos de Controle e Decisão</h1>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main>
+        <div class="grid-container">
+            <div class="container">
+                <h2>Média de Três Números</h2>
+                <label for="num1">Número 1:</label>
+                <input type="number" id="num1">
+                <label for="num2">Número 2:</label>
+                <input type="number" id="num2">
+                <label for="num3">Número 3:</label>
+                <input type="number" id="num3">
+                <button onclick="calcularMedia()">Calcular Média</button>
+                <p id="resultadoMedia"></p>
+            </div>
+            <div class="container">
+                <h2>Verificar Idade</h2>
+                <label for="idade">Informe sua idade:</label>
+                <input type="number" id="idade">
+                <button onclick="verificarIdade()">Verificar</button>
+            </div>
+            <div class="container">
+                <h2>Definir Mês</h2>
+                <label for="mes">Informe um número de 1 a 12:</label>
+                <input type="number" id="mes">
+                <button onclick="definirMes()">Definir Mês</button>
+                <p id="resultadoMes"></p>
+            </div>
+        </div>
+    </main>
+    <!-- Fim do Conteúdo Principal -->
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    <!-- Fim dos Scripts -->
+
+</body>
+</html>
